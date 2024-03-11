@@ -1,0 +1,35 @@
+.header {
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.header__menu {
+    width: 36px;
+    height: 24px;
+    background-image: url("../img/Menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+}
+
+.container__img {
+    padding: 0.6em;
+}
+
+.menu__list {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+.container__button:checked ~ .menu__list {
+    display: block;
+}
