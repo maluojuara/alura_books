@@ -115,6 +115,105 @@
         </div>
     </section>
 
+    <section class="carousel">
+        <h2 class="carousel__title">Mais vendidos</h2>
+
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="img/MetricasAgeis.svg" 
+                    alt="Livro Métricas Ágeis"></div>
+                <div class="swiper-slide"><img src="img/ApacheKafka.svg" 
+                    alt="Livro Apache Kafka e Spring Boot"></div>
+                <div class="swiper-slide"><img src="img/Javascript.svg" 
+                    alt="Livro Javascript Assertivo"></div>
+                <div class="swiper-slide"><img src="img/Nodejs.svg" 
+                    alt="Livro Construindo APIs REST com Noje.js"></div>
+                <div class="swiper-slide"><img src="img/Guia Front-end.svg" 
+                    alt="Livro Guia Front-end"></div>
+                <div class="swiper-slide"><img src="img/Tuning.svg" 
+                    alt="Livro Tuning de SQL"></div>
+            </div>
+        
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+        <div class="card">
+
+            <!-- First line -->
+            <div class="card__elements_1">
+                <div class="card__elements__description">
+                    <img src="img/Estrelinhas.svg" alt="Cinco estrelas" clas="description__stars">
+                    <h3 class="description__title">Autora do Mês</h3>
+                    <h4 class="description__title_book">Juliana Agarikov</h4>
+                    <p class="description__text">Analista de sistemas e escritora, Juliana é especialista em Front-End. </p>
+                </div>
+                <img src="img/Escritora.svg" class="card__elements__img" alt="Foto da autora Juliana Agarikov">
+            </div>
+
+            <!-- Second line -->
+            <div class="card__elements_2">
+                <ul class="card__elements__buttons">
+                    <li class="buttons__item"><img src="img/Favoritos.svg" alt="Favoritar livro"></li>
+                    <li class="buttons__item"><img src="img/Compras.svg" alt="Ir para o carrinho de compras"></li>
+                </ul>
+
+                <a href="#" class="card__elements__saibamais">Saiba mais</a>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <section class="topics">
+        <h2 class="topics__title">TÓPICOS VISITADOS RECENTEMENTE</h2>
+        <ul class="topics__list">
+            <li class="topics__list__item">
+                <a href="#" class="topics__list__link">Android</a>
+            </li>
+            <li class="topics__list__item">
+                <a href="#" class="topics__list__link">Marketing Digital</a>
+            </li>
+            <li class="topics__list__item">
+                <a href="#" class="topics__list__link">Agile</a>
+            </li>
+            <li class="topics__list__item">
+                <a href="#" class="topics__list__link">Startups</a>
+            </li>
+            <li class="topics__list__item">
+                <a href="#" class="topics__list__link">HTML & CSS</a>
+            </li>
+            <li class="topics__list__item">
+                <a href="#" class="topics__list__link">Python</a>
+            </li>
+            <li class="topics__list__item">
+                <a href="#" class="topics__list__link">OO</a>
+            </li>
+            <li class="topics__list__item">
+                <a href="#" class="topics__list__link">Java</a>
+            </li>
+        </ul>
+    </section>
+
+    <section class="contact">
+        <h2 class="contact__title">Fique por dentro das novidades!</h2>
+        <p class="contact__text">Atualizações de e-books, novos livros, promoções e outros.</p>
+        <input type="email" placeholder="Cadastre seu e-mail" class="contact__email">
+    </section>
+
+    <hr/>
+
+    <footer>
+        <h2 class="footer__title">Grupo Alura</h2>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
         const swiper = new Swiper('.swiper', {
