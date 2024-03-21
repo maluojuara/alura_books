@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 
 </head>
@@ -40,11 +41,40 @@
                     <a href="#" class="item__link">DESIGN & UX</a>
                 </li>
             </ul>
-            <img src="/img/Logo.svg" alt="Logo da Alura Books" class="container__img">
+            <img src="/img/Logo.svg" alt="Logo da Alura Books" class="container__img__logo">
+            <h1 class="container__title"><b class="container__title-bold">Alura</b>Books</h1>
         </div>
 
+        <ul class="header__options">
+            <input type="checkbox" id="menu-options" class="options__button">
+            <label for="menu-options">
+                <li class="options__item">Categorias</li>
+            </label>
+
+            <ul class="menu__list">
+                <li class="menu__list__item">
+                    <a href="#" class="item__link">PROGRAMAÇÃO</a>
+                </li>
+                <li class="menu__list__item">
+                    <a href="#" class="item__link">FRONT-END</a>
+                </li>
+                <li class="menu__list__item">
+                    <a href="#" class="item__link">INFRAESTRUTURA</a>
+                </li>
+                <li class="menu__list__item">
+                    <a href="#" class="item__link">BUSINESS</a>
+                </li>
+                <li class="menu__list__item">
+                    <a href="#" class="item__link">DESIGN & UX</a>
+                </li>
+            </ul>
+
+            <li class="options__item"><a href="#" class="options__item__link">Favoritos</li>
+            <li class="options__item"><a href="#" class="options__item__link">Minha estante</li>
+        </ul>
+
         <div class="header__container">
-            <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos" class="container__img"></a>
+            <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos" class="container__img container__img-fav"></a>
             <a href="#"><img src="img/Compras.svg" alt="Carrinho de compras" class="container__img"></a>
             <a href="#"><img src="img/Usuario.svg" alt="Meu perfil" class="container__img"></a>
         </div>
@@ -214,6 +244,7 @@
     <footer>
         <h2 class="footer__title">Grupo Alura</h2>
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
         const swiper = new Swiper('.swiper', {
