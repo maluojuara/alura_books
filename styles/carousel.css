@@ -104,3 +104,37 @@
         margin: 2em auto;
     }
 }
+
+@media screen and (min-width: 1728px){
+    .carousel__container{
+        display: flex;
+        margin: 2.5em 20vw 2.5em 20vw;
+        align-items: center;
+    }
+
+    .swiper-pagination{
+        margin: 1em 0;
+    }
+
+    .swiper{
+        width: 100%;
+    }
+
+    .description__title{
+        font-size: 32px;
+        margin-top: 0.4em;
+    }
+    
+    .description__text{
+        font-size: 16px;
+    }
+
+    .card__elements__description, .card__elements__buttons{
+        margin-left: 1.5em;
+    }
+
+    .card{
+        width: 130%;
+        margin-left: 3em;
+    }
+}

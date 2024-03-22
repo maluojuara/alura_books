@@ -48,3 +48,19 @@
         margin: 2em 0.5em;
     }
 }
+
+
+@media screen and (min-width: 1728px){
+
+    .topics{
+        padding: 4em 25vw;
+    }
+
+    .topics__title{
+        font-size: 32px;
+    }
+
+    .topics__list__link:hover{
+        opacity: 60%;
+    }
+}
