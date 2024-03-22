@@ -40,3 +40,28 @@
     background-position: 1em;
     padding-left: 2.8em;
 }
+
+
+/* Responsiveness */
+
+@media screen and (min-width: 1024px){
+    .contact{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact__group{
+        margin-right: 5em;
+        width: 30%;
+    }
+
+    .contact__title{
+        font-size: 24px;
+        line-height: 1.5em;
+    }
+
+    .contact__email{
+        width: 30%;
+    }
+}
